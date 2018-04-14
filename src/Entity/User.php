@@ -34,6 +34,12 @@ class User
     private $round;
 
     /**
+     * @ORM\Column(type="integer")
+     * @Groups({"user"})
+     */
+    private $points;
+
+    /**
      * @ORM\ManyToOne(targetEntity="Game", inversedBy="users")
      * @Groups({"user"})
      */
@@ -86,5 +92,21 @@ class User
         return $this;
     }
 
+    /**
+     * @return mixed
+     */
+    public function getPoints()
+    {
+        return $this->points;
+    }
 
+    /**
+     * @param mixed $points
+     * @return User
+     */
+    public function setPoints($points)
+    {
+        $this->points = $points;
+        return $this;
+    }
 }

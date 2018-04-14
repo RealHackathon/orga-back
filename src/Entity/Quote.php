@@ -10,7 +10,7 @@ use Symfony\Component\Serializer\Annotation\Groups;
  * @ORM\Entity(repositoryClass="App\Repository\QuoteRepository")
  * @ApiResource(attributes={
  *     "normalization_context"={"groups"={"quote"}},
- *     "filters"={"quote.search"}
+ *     "filters"={"quote.search", "quote.random"}
  *     })
  */
 class Quote
@@ -44,9 +44,9 @@ class Quote
         return $this->text;
     }
 
-    public function setText(string $Text): self
+    public function setText(string $text): self
     {
-        $this->text = $Text;
+        $this->text = $text;
 
         return $this;
     }

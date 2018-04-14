@@ -26,10 +26,24 @@ class QuoteController extends Controller
     {
         $em = $this->getDoctrine()->getManager();
         $game = $em->getRepository(Game::class)->find($id);
-        $users = $em->getRepository(User::class)->findBy(['round' => 0, 'game' => $game]);
-        if (count($users) === 0) {
-            return new JsonResponse('ko', 200);
+        $users = $em->getRepository(User::class)->findBy(['game' => $game]);
+        $count0 = 0;
+        $count1 = 0;
+        $count2 = 0;
+        foreach ($users as $user) {
+            if ($user->getRound() === '0') {
+                $count0++;
+            } elseif ($user->getRound() === '1') {
+                $count1++;
+            } else {
+                $count2++;
+            }
         }
-        return new JsonResponse('ok', 200);
+        if ($count0 === 0 or $count1 === 0) {
+            return new JsonResponse('ok', 200);
+        } else if ($count2 > 0) {
+            return new JsonResponse('done', 200);
+        }
+        return new JsonResponse('ko', 200);
     }
 }

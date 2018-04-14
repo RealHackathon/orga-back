@@ -33,3 +33,7 @@ services:
         autowire: false
         autoconfigure: false
         public: false
+    quote.random_filter:
+        class: 'App\Filter\RandomFilter'
+        arguments: [ '@doctrine', '@request_stack', '@?logger', { random: ~ } ]
+        tags: [ { name: 'api_platform.filter', id: 'quote.random' } ]
