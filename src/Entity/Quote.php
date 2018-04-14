@@ -2,10 +2,16 @@
 
 namespace App\Entity;
 
+use ApiPlatform\Core\Annotation\ApiResource;
 use Doctrine\ORM\Mapping as ORM;
+use Symfony\Component\Serializer\Annotation\Groups;
 
 /**
  * @ORM\Entity(repositoryClass="App\Repository\QuoteRepository")
+ * @ApiResource(attributes={
+ *     "normalization_context"={"groups"={"quote"}},
+ *     "filters"={"quote.search"}
+ *     })
  */
 class Quote
 {
@@ -18,13 +24,15 @@ class Quote
 
     /**
      * @ORM\Column(type="string", length=255)
+     * @Groups({"glossary"})
      */
     private $Text;
 
     /**
-     * @ORM\OneToOne(targetEntity="App\Entity\Theme", mappedBy="Label")
+     * @ORM\Column(type="string", length=255)
+     * @Groups({"glossary"})
      */
-    private $Themes;
+    private $movie;
 
     public function getId()
     {
@@ -46,18 +54,18 @@ class Quote
     /**
      * @return mixed
      */
-    public function getThemes()
+    public function getMovie()
     {
-        return $this->Themes;
+        return $this->movie;
     }
 
     /**
-     * @param mixed $Themes
+     * @param mixed $movie
+     * @return Quote
      */
-    public function setThemes($Themes)
+    public function setMovie($movie)
     {
-        $this->Themes = $Themes;
+        $this->movie = $movie;
+        return $this;
     }
-
-
 }
