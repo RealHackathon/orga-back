@@ -24,13 +24,13 @@ class Quote
 
     /**
      * @ORM\Column(type="string", length=255)
-     * @Groups({"glossary"})
+     * @Groups({"quote"})
      */
-    private $Text;
+    private $text;
 
     /**
      * @ORM\Column(type="string", length=255)
-     * @Groups({"glossary"})
+     * @Groups({"quote"})
      */
     private $movie;
 
@@ -41,12 +41,12 @@ class Quote
 
     public function getText(): ?string
     {
-        return $this->Text;
+        return $this->text;
     }
 
     public function setText(string $Text): self
     {
-        $this->Text = $Text;
+        $this->text = $Text;
 
         return $this;
     }
