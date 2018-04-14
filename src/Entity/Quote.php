@@ -23,7 +23,7 @@ class Quote
     private $id;
 
     /**
-     * @ORM\Column(type="string", length=255)
+     * @ORM\Column(type="text")
      * @Groups({"quote"})
      */
     private $text;
