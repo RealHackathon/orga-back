@@ -9,6 +9,9 @@ doctrine:
         result_cache_driver:
             type: service
             id: doctrine.result_cache_provider
+        dql:
+            numeric_functions:
+                Rand: App\Doctrine2\Rand
 
 services:
     doctrine.result_cache_provider:

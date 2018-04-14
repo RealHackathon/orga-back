@@ -10,7 +10,7 @@ use Symfony\Component\Serializer\Annotation\Groups;
  * @ORM\Entity(repositoryClass="App\Repository\QuoteRepository")
  * @ApiResource(attributes={
  *     "normalization_context"={"groups"={"quote"}},
- *     "filters"={"quote.search"}
+ *     "filters"={"quote.search", "quote.random"}
  *     })
  */
 class Quote
@@ -24,13 +24,13 @@ class Quote
 
     /**
      * @ORM\Column(type="string", length=255)
-     * @Groups({"glossary"})
+     * @Groups({"quote"})
      */
-    private $Text;
+    private $text;
 
     /**
      * @ORM\Column(type="string", length=255)
-     * @Groups({"glossary"})
+     * @Groups({"quote"})
      */
     private $movie;
 
@@ -41,12 +41,12 @@ class Quote
 
     public function getText(): ?string
     {
-        return $this->Text;
+        return $this->text;
     }
 
-    public function setText(string $Text): self
+    public function setText(string $text): self
     {
-        $this->Text = $Text;
+        $this->text = $text;
 
         return $this;
     }
