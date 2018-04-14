@@ -120,7 +120,73 @@ Et on a vite fait de perdre des points parce qu’on a faim. Pas plus tard qu’
             'Brice de nice' => [
                 'Moi le matin, je casse le vent, je fais chier les gens ça me purifie c’est important.'
             ],
-            'Madagascar 2'
+            'Madagascar 2' => [
+                '- L’avion ne sera réparé que quand la direction acceptera nos revendications : d’abord les congés maternité...- Les congés maternité ? Mais !... Vous êtes des mâles...'
+            ],
+            'Gran Torino' => [
+                'Il vous est jamais arrivé de tomber sur un mec qui fallait pas faire chier ? C’est moi.'
+            ],
+            'Tais-toi !' => [
+                '- Si je comprend bien le type le plus con de votre asile a réussi à enlever le type le plus dangereux, c’est pas un peu insolite, ça ? - Je suis psychiatre depuis 20 ans, alors moi, l’insolite...', 'Bonjour, je m’appelle Quentin. Je suis de Montargis.', '- Dites, vous pourriez pas m’en débarasser ?
+- Euh... il est con ! C’est un asile de fous, pas un asile de cons. Il faudrait construire des asiles de cons, mais vous imaginez un peu la taille des bâtiments...', 'Je connaissais un type il s’appelait Michaut ou Michelet ou Michalot, un truc comme ça. Il était comme toi il avait toujours une grosse joue à gauche. Je me marrais et je lui disais « Tu ressembles à un cul mais t’as qu’une fesse ! ».
+Il faisait du bruit en mangeant comme toi, une vraie pelleteuse le mec ! Et je lui disais « Hé la-qu’une-fesse ! Tu bouffes comme une pelleteuse ! ».'
+            ],
+            'Titanic' => [
+                '- Et quand je marche dans la vallée je ne crains pas la mort...- Tu peux pas marcher plus vite dans ta putain de vallée !'
+            ],
+            'Les trois frères' => [
+                'L’huisser : Dois-je vous signaler qu’un huissier est un agent assermenté par l’État, hein ? 
+Didier : Ouais ben c’est pas incompatible avec un enculé c’est plutôt un pléonasme.
+Pascal : Non mais ça lui a échappé.
+L’huisser : Oui eh ben pas à moi alors je vais vous dire à chaque insulte vous serez gratifié d’une amende de 500 Francs.
+Pascal : Attendez, sinon, il y a le téléviseur là...
+Didier : Et s’il vous plaît ? La gifle c’est combien ?
+Pascal : C’est un Thomson, il est bien, il est tout neuf...
+L’huisser : Bon, 800, 800...
+Bernard : Euh monsieur c’est une question j’voudrais savoir... Sac à merde c’est une insulte ? J’sais pas ’fin j’pose la question comme ça, c’est une insulte ?
+L’huisser : Sac à merde... J’vous avais prévenu 500 Francs.
+Didier : Nan nan vous pouvez mettre 3000 Francs parce que on va rajouter dans le sac à merde euh, vieux gros con pourri, d’enfoiré de merde au service du pouvoir qui me fait chier... 5000 parce que j’vais rajouter GROS CON DE TÊTE DE MERDE qui pu l’vomi de de...
+Bernard : De raclure de bidet !'
+            ],
+            'Fight Club' => [
+                'C’était de toute beauté. Nous revendions à des femmes riches la graisse qui provenait de leurs fesses.'
+            ],
+            'Camping' => [
+                'Dis donc Sophie, j’espère que t’as pas pris un coup de soleil sur les fesses parce que ça va couter cher en Biafine s’il faut que t’étales !'
+            ],
+            'Les Bronzés' => [
+                'J’ai vécu avec une femme. Et puis au bout de 48h elle a decidé qu’on se separerait d’un commun accord. J’ai fais une tentative de suicide : j’ai avalé 2 tubes de laxatifs. J’ai perdu 16 kilos et ma moquette.', '- Bonsoir, nous allons nous coucher !- Bonsoir, nous allons les niquer !', 'À un poil de cul près.'
+            ],
+            'Les bronzés font du ski' => [
+                'Écoute Bernard... J’crois que toi et moi, on a un peu le même problème ; c’est qu’on peut pas vraiment tout miser sur notre physique, surtout toi. Alors si je peux me permettre de te donner un conseil, c’est oublies qu’t’as aucune chance, vas-y, fonce ! On sait jamais, sur un malentendu ça peut marcher...', 'Moi j’ai acheté cet appartement du 15 au 30, si tout le monde dépasse d’une demie journée qu’est ce qu’il se passe ? l’année prochaine je skie au moi de juillet !', '- Je sais pas ce qui me retient de te casser la gueule...
+- La peur peut-être ?
+- Ouais, ça doit être ça !', 'Quand te reverrais-je ? Pays merveilleux ! Où ceux qui s’aiment, vivent à deux !',
+                'Je crois que toi et moi on a un peu le même problème, c’est-à-dire qu’on peut pas vraiment tout miser sur notre physique, surtout toi.', '- Excusez-moi mais vous êtes en train d’uriner sur ma voiture.
+- Hein ? Ho, Ha oui ! ... Mais c’est parce que j’ai la même là bas, j’ai confondu ! ... Je peux finir ?
+- Oui.', '- Bonjour, j’ai réservé une chambre.
+- Oui, et vous vous appelez ?
+- Jean-Claude, et vous ?
+- ...
+- Dus avec un D comme Dus...', '- Tu m’aides pas là ?- Non pas là non...', '- C’est quoi les petits trucs blanc ?
+- Ça c’est les vers. bah oui comme ça y a la viande aussi...
+- je suis végétarien.', 'Copain, c’est son nom. On l’a appelé copain comme cochon.', '- Je ne vous met pas mon point sur la gueule, je pense que ce n’est pas nécessaire ?- N...n...non.', 'Vous avez de la pâte ? Vous avez du sucre ? Avec la pâte, vous faites une crêpe et vous mettez du sucre dessus !', 'Je sens que je vais conclure.'
+            ],
+            'Le parrain' => [
+                'Ne me raconte plus que tu es innocent parce que c’est une insulte à mon intelligence et ça me rend de mauvaise humeur.',
+                'Mon père lui a fait une offre qu’il ne pouvait pas refuser.', 'Ce n’est pas personnel, c’est uniquement les affaires.'
+            ],
+            'Le Parrain, 2ème partie' => [
+                'Gardez vos amis près de vous, mais gardez vos ennemis encore plus près.'
+            ],
+            'On a retrouvé la 7e compagnie' => [
+                'Le fil vert sur le bouton vert, le fil rouge sur le bouton rouge.', 'Si je connaissais le con qu’a fait sauter le pont !'
+            ],
+            'Apocalypse Now' => [
+                'J’aime l’odeur du napalm le matin.'
+            ],
+            'Star Wars : Episode 4 - Un nouvel espoir' => [
+                'Que la Force soit avec toi...'
+            ]
         ];
         foreach ($data as $movie => $citations) {
             foreach ($citations as $citation) {
