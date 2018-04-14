@@ -129,7 +129,7 @@ Et on a vite fait de perdre des points parce qu’on a faim. Pas plus tard qu’
             'Tais-toi !' => [
                 '- Si je comprend bien le type le plus con de votre asile a réussi à enlever le type le plus dangereux, c’est pas un peu insolite, ça ? - Je suis psychiatre depuis 20 ans, alors moi, l’insolite...', 'Bonjour, je m’appelle Quentin. Je suis de Montargis.', '- Dites, vous pourriez pas m’en débarasser ?
 - Euh... il est con ! C’est un asile de fous, pas un asile de cons. Il faudrait construire des asiles de cons, mais vous imaginez un peu la taille des bâtiments...', 'Je connaissais un type il s’appelait Michaut ou Michelet ou Michalot, un truc comme ça. Il était comme toi il avait toujours une grosse joue à gauche. Je me marrais et je lui disais « Tu ressembles à un cul mais t’as qu’une fesse ! ».
-Il faisait du bruit en mangeant comme toi, une vraie pelleteuse le mec ! Et je lui disais « Hé la-qu’une-fesse ! Tu bouffes comme une pelleteuse ! ».'
+Il faisait du bruit en mangeant comme toi, une vraie pelleteuse le mec ! Et je lui disais « Hé la-qu’une-fesse ! Tu bouffes comme une pelleteuse ! ».', 'Mais non t’es pas con ! T’es comme moi. On peut pas toujours être à son maximum.'
             ],
             'Titanic' => [
                 '- Et quand je marche dans la vallée je ne crains pas la mort...- Tu peux pas marcher plus vite dans ta putain de vallée !'
@@ -186,6 +186,13 @@ Bernard : De raclure de bidet !'
             ],
             'Star Wars : Episode 4 - Un nouvel espoir' => [
                 'Que la Force soit avec toi...'
+            ],
+            'Pulp Fiction' => [
+                '- Putain le con, j’ai buté Marvin !- Mais pourquoi t’as fait ça ?- J’sais pas c’est un accident !', 'Maintenant quoi ? Je m’en vais te le dire moi quoi ! J’appelle deux experts complètement défoncés au crack qui vont travailler nos deux copains. Avec une paire de pinces, un chalumeau et un fer à souder. Est-ce que tu m’as entendu ! Espèce de porc ! Je suis très loin d’en avoir fini avec toi ! Je vais te la jouer à la flamme bien moyen-âgeuse !', 'C’est à une demi-heure d’ici. J’y suis dans dix minutes.', 'Si Butch se réfugie en Indochine, je veux un gonze dans chaque bol de riz prêt à lui plomber les molaires.'
+            ],
+            'Le dîner de cons' => [
+                '- Il s’appelle Juste Leblanc. - Ah bon, il n’a pas de prénom ? - Je viens de vous le dire Juste Leblanc... Votre prénom c’est François, c’est juste ? Eh bien lui c’est pareil, c’est Juste. - ...',
+                'Il est mignon monsieur Pignon, il est méchant monsieur Brochant !'
             ]
         ];
         foreach ($data as $movie => $citations) {
